@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="chatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="group">
+    <Key>
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="group_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="message">
+    <Key>
+      <PropertyRef Name="m_id" />
+    </Key>
+    <Property Name="m_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="group_id" Type="Int32" Nullable="false" />
+    <Property Name="sender_id" Type="Int32" Nullable="false" />
+    <Property Name="message1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="user1" />
+    </Key>
+    <Property Name="user1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="pwd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="privilegie" Type="Byte" Nullable="false" />
+  </EntityType>
+  <EntityType Name="View_1">
+    <Key>
+      <PropertyRef Name="sender_id" />
+      <PropertyRef Name="user" />
+      <PropertyRef Name="group_id" />
+      <PropertyRef Name="Expr1" />
+    </Key>
+    <Property Name="sender_id" Type="Int32" Nullable="false" />
+    <Property Name="user" Type="Int32" Nullable="false" />
+    <Property Name="group_id" Type="Int32" Nullable="false" />
+    <Property Name="Expr1" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="chatEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="groups" EntityType="Self.group" />
+    <EntitySet Name="messages" EntityType="Self.message" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <EntitySet Name="View_1" EntityType="Self.View_1" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,16 @@
+C:\Users\Dark\source\repos\first gui\first gui\bin\Debug\first gui.exe.config
+C:\Users\Dark\source\repos\first gui\first gui\bin\Debug\first gui.exe
+C:\Users\Dark\source\repos\first gui\first gui\bin\Debug\first gui.pdb
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first gui.csprojAssemblyReference.cache
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first_gui.Form1.resources
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first_gui.Properties.Resources.resources
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first gui.csproj.GenerateResource.cache
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first gui.exe
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first gui.pdb
+C:\Users\Dark\source\repos\first gui\first gui\bin\Debug\EntityFramework.dll
+C:\Users\Dark\source\repos\first gui\first gui\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dark\source\repos\first gui\first gui\bin\Debug\EntityFramework.xml
+C:\Users\Dark\source\repos\first gui\first gui\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first gui.csproj.CopyComplete
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first_gui.Form2.resources
+C:\Users\Dark\source\repos\first gui\first gui\obj\Debug\first_gui.ChatView.resources
